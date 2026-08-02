@@ -1,0 +1,45 @@
+appId: com.countryltp.countrypuzzle
+productName: CountryPuzzle
+copyright: Copyright © 2026
+
+directories:
+  output: release
+  buildResources: build
+
+files:
+  - src/**
+  - data/**
+  - assets/**
+  - config.example.json
+  - package.json
+
+asar: true
+
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+    - target: portable
+      arch:
+        - x64
+
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  perMachine: false
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: 国家海龟汤
+
+mac:
+  target:
+    - dmg
+    - zip
+  category: public.app-category.games
+
+linux:
+  target:
+    - AppImage
+    - deb
+  category: Game

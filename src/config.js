@@ -10,7 +10,22 @@ const path = require('path');
  */
 
 const PROJECT_ROOT = path.resolve(__dirname, '..');
-const DEFAULT_CONFIG_PATH = path.join(PROJECT_ROOT, 'config.json');
+
+/** 打包后的应用无法写入安装目录（app.asar 只读），配置文件改存到系统用户数据目录 */
+function resolveConfigPath() {
+  const packaged = process.versions.electron && !process.defaultApp;
+  if (packaged) {
+    try {
+      const { app } = require('electron');
+      return path.join(app.getPath('userData'), 'config.json');
+    } catch (e) {
+      // 继续走项目根目录
+    }
+  }
+  return path.join(PROJECT_ROOT, 'config.json');
+}
+
+const DEFAULT_CONFIG_PATH = resolveConfigPath();
 
 const DEFAULTS = {
   game: 'country',        // 当前玩法：country | (未来可扩展)

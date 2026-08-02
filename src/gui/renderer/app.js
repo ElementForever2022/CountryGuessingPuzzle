@@ -12,6 +12,7 @@ const giveupBtn = $('giveupBtn');
 const newBtn = $('newBtn');
 const settingsBtn = $('settingsBtn');
 const statusText = $('statusText');
+const watermarkEl = $('watermark');
 
 let busy = false;
 let gameOver = false;
@@ -49,6 +50,13 @@ function scrollBottom() {
   messagesEl.parentElement.scrollTop = messagesEl.parentElement.scrollHeight;
 }
 
+/** 让版本水印固定在底部控制区上方（左下角），窗口尺寸变化时重算 */
+function placeWatermark() {
+  const controls = document.querySelector('.controls');
+  if (!controls || !watermarkEl) return;
+  watermarkEl.style.bottom = `${window.innerHeight - controls.offsetTop + 6}px`;
+}
+
 // ---------- 状态 ----------
 async function refreshStatus() {
   try {
@@ -56,6 +64,7 @@ async function refreshStatus() {
     const dot = st.useLlm ? '●' : '○';
     statusText.textContent = `裁判：${st.judgeLabel} ｜ 数据 ${st.datasetCount} 个 ｜ 已问 ${st.questionCount} 题`;
     statusText.title = st.judgeLabel;
+    if (watermarkEl) watermarkEl.textContent = `v${st.version}`;
   } catch (e) {
     statusText.textContent = '状态获取失败';
   }
@@ -405,6 +414,8 @@ cfg.modelSelect.addEventListener('change', () => {
   providers = await window.api.getProviders();
   const { config } = await window.api.getConfig();
   applyTheme(config.theme);
+  placeWatermark();
+  window.addEventListener('resize', placeWatermark);
   await startGame();
 })().catch((e) => {
   addMsg('assistant', `[初始化失败] ${e.message}`, 'error');

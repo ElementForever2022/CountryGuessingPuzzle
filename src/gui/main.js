@@ -50,6 +50,7 @@ function statusPayload() {
   const config = resolveConfig();
   const model = resolveLlmConfig(config).model || '未设置';
   return {
+    version: app.getVersion(),
     title: runner ? runner.game.title : '国家海龟汤',
     datasetCount: runner ? runner.datasetCount : 0,
     useLlm: runner ? runner.useLlm : false,

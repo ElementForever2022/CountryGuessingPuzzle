@@ -376,3 +376,15 @@ main {
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.4);
 }
 .toast.hidden { display: none; }
+
+/* ---------- 版本水印 ---------- */
+.watermark {
+  position: fixed;
+  left: 14px;
+  font-size: 11px;
+  color: var(--text-dim);
+  opacity: 0.45;
+  pointer-events: none;
+  user-select: none;
+  z-index: 10;
+}

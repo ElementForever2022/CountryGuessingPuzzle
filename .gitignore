@@ -1,6 +1,10 @@
 # 依赖
 node_modules/
 
+# 构建产物（electron-builder）
+release/
+dist/
+
 # 配置文件（含 API Key，不入库；模板见 config.example.json）
 config.json
 

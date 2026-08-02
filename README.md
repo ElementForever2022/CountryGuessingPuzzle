@@ -54,21 +54,48 @@ npm start
 └──────────────────────────────────────────────────────────┘
 ```
 
-### GUI 操作
+### 图形化操作流程
 
-| 操作 | 说明 |
+**1）启动**
+
+- 开发模式：在项目根目录执行 `npm start`；或直接双击打包后的 `CountryPuzzle.exe`。
+- 窗口打开后自动开始一局：程序从 197 个主权国家中随机抽取一个“神秘国家”。顶部状态栏显示当前裁判（大模型 / 离线）、数据量与已问问题数。
+
+**2）提问**
+
+- 在底部输入框输入一个“是 / 不是”类判断题，例如「这个国家在亚洲吗？」，按回车或点「发送」。
+- 裁判回复 `是` / `不是` / `无效问题：原因`。也可以直接猜「答案是法国吗？」——猜中会立即揭晓并结算本局。
+
+**3）提示 / 放弃 / 新一局**
+
+- 「提示」：逐条获取线索（大洲 → 首都 → 人口 → 面积，最多 4 条）。
+- 「放弃」：结束本局并揭晓答案。
+- 「新一局」：立即重新随机抽取一个国家并清空聊天记录。
+
+**4）揭晓卡片**
+
+- 猜中或放弃后展示：国家档案卡（首都 / 大洲 / 人口 / 面积）、国旗与首都/地标图片、历史提问记录、趣味介绍（优先使用内置维基百科简介，未配置大模型也可离线显示）。点「再来一局」继续。
+
+**5）设置（右上角齿轮 ⚙）**
+
+| 设置项 | 说明 |
 | --- | --- |
-| 底部输入框 | 提出“是/不是”判断题，或直接猜“答案是法国吗？”，回车或点“发送” |
-| 提示 | 获取一条关于神秘国家的提示（最多 4 条） |
-| 放弃 | 结束本局并揭晓答案 |
-| 新一局 | 重新随机抽取一个国家 |
-| 齿轮图标 ⚙ | 打开设置：接口服务（选择题）、API Key、接口地址（默认/自定义）、模型（选择题或自定义）、裁判模式、配色主题，并可测试连接 |
+| 接口服务（Provider） | 下拉选择：Ollama / DeepSeek / 智谱 / 硅基流动 / OpenAI / Kimi / 自定义 |
+| API Key | 付费 / 在线服务的 Key（本地 Ollama 可留空） |
+| 接口地址 | 「使用默认地址」或「自定义地址」；选自定义后填写 API Base |
+| 模型 | 预设模型下拉，或选「自定义」手动输入模型名 |
+| 裁判模式 | `auto`（默认：有 API 用大模型，否则离线）/ `llm`（强制大模型）/ `heuristic`（强制离线） |
+| 配色主题 | 深海蓝 / 森林绿 / 樱花粉 / 极光紫 / 晨曦 |
+| 测试连接 | 用当前表单内容测试大模型连通性，保存前建议先点一次 |
+| 保存 | 写入 `config.json` 并自动重开一局，即改即用 |
+
+> 常见提问：大洲 / 语言 / 首都 / 人口区间 / 沿海与否 / 国土形状等；多问合一、表述含糊、与地理无关的开放性问题会被判为“无效”。
 
 ---
 
 ## 配置方式（config.json）
 
-项目**只使用 `config.json` 一个配置文件**（位于项目根目录，含 API Key，已被 `.gitignore` 排除）。GUI 的设置弹窗保存时即写入该文件。
+项目**只使用 `config.json` 一个配置文件**（开发版位于项目根目录，含 API Key，已被 `.gitignore` 排除；打包版因安装目录只读会改存系统用户数据目录，见下方[编译打包](#编译打包build)）。GUI 的设置弹窗保存时即写入该文件。
 
 - 模板见 [config.example.json](config.example.json)，可复制为 `config.json` 后手动填写。
 - 配置优先级（从高到低）：**命令行参数 > config.json > 默认值**，每个键取第一个非空值。
@@ -134,6 +161,55 @@ node scripts/testLlm.js --provider deepseek --api-key sk-xxxx --model deepseek-v
 
 ---
 
+## 编译打包（Build）
+
+将项目编译为可分发的桌面安装包（Windows 安装器 / 便携版、macOS dmg、Linux AppImage / deb）。构建配置位于 [electron-builder.yml](electron-builder.yml)。
+
+```bash
+# 1) 安装依赖（含 Electron 与 electron-builder）
+npm install
+
+# 2) 一键打包当前系统对应的平台
+npm run build
+
+# 按平台分别打包：
+npm run build:win     # Windows：NSIS 安装器 + 便携版
+npm run build:mac     # macOS：dmg + zip（需在 macOS 上执行）
+npm run build:linux   # Linux：AppImage + deb
+
+# 只生成免安装解压目录（最快，便于自测）：
+npm run pack
+```
+
+产物输出到 `release/` 目录：
+
+| 文件 | 说明 |
+| --- | --- |
+| `CountryPuzzle Setup <版本>.exe` | Windows 安装程序（向导式，可自选安装目录） |
+| `CountryPuzzle <版本>.exe` | Windows 便携版（免安装，双击即用） |
+| `CountryPuzzle-<版本>.dmg` / `.zip` | macOS 安装镜像 / 压缩包 |
+| `CountryPuzzle-<版本>.AppImage` / `.deb` | Linux 应用镜像 / 安装包 |
+| `win-unpacked/` | 免安装解压目录（`npm run pack` 产物） |
+
+> 首次构建需联网下载 Electron 与打包工具，耗时取决于网络；国内网络较慢时可设置镜像后再执行：
+> ```powershell
+> $env:ELECTRON_MIRROR = "https://npmmirror.com/mirrors/electron/"
+> npm run build:win
+> ```
+
+**构建后自检**：打包好的程序支持 `--e2e-test` 自测，自动完成「开局 → 提问 → 提示 → 揭晓」全流程后退出：
+
+```bash
+"./release/win-unpacked/CountryPuzzle.exe" --e2e-test
+```
+
+**打包版注意事项**
+
+- 打包后 `app.asar` 为只读，`config.json` 不再写入项目目录，而是保存到系统用户数据目录：Windows `%APPDATA%\CountryPuzzle\config.json`、macOS `~/Library/Application Support/CountryPuzzle/config.json`、Linux `~/.config/CountryPuzzle/config.json`。设置弹窗中保存仍即改即用。
+- 如需自定义应用图标，在项目根目录 `build/` 下放置 `icon.ico`（Windows）/ `icon.icns`（macOS）/ `icon.png`（Linux）后重新打包即可。
+
+---
+
 ## 第三方依赖说明
 
 本项目引入的第三方依赖：
@@ -141,6 +217,7 @@ node scripts/testLlm.js --provider deepseek --api-key sk-xxxx --model deepseek-v
 | 依赖 | 类型 | 用途 |
 | --- | --- | --- |
 | `electron` | devDependencies | 桌面 GUI 运行环境（唯一第三方运行时依赖） |
+| `electron-builder` | devDependencies | 编译打包为各平台安装包（仅构建时使用） |
 
 其余全部为 Node.js 内置能力（`fetch` / `http` / `readline` / `fs` 等），核心游戏逻辑零依赖、可在纯 Node 下独立运行。
 
@@ -151,11 +228,15 @@ node scripts/testLlm.js --provider deepseek --api-key sk-xxxx --model deepseek-v
 ```
 CountryLTP/
 ├── package.json
+├── electron-builder.yml  # 打包构建配置（electron-builder）
 ├── README.md
 ├── EXTENDING.md          # 玩法扩展指南
 ├── config.example.json   # 配置文件模板（复制为 config.json）
+├── assets/
+│   └── images/           # 国旗 / 首都 / 地标图片（打包时一并打入）
 ├── data/
-│   └── countries.json    # 197 个主权国家数据库
+│   ├── countries.json    # 197 个主权国家数据库
+│   └── landmarks.json    # 地标数据
 ├── scripts/
 │   ├── checkData.js      # 数据校验：npm run check
 │   └── testLlm.js        # 大模型连通性测试：npm run test:llm
