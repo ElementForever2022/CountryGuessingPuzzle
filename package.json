@@ -1,0 +1,33 @@
+{
+  "name": "country-ltp",
+  "version": "1.1.0",
+  "description": "国家海龟汤（Country LTP）：一款通过不断问“是/不是”问题来猜出神秘国家的 AI 互动猜谜游戏（Electron GUI）。内置中国官方承认的主权国家数据库，支持免费与付费大模型 API，配置保存在 config.json。",
+  "main": "src/gui/main.js",
+  "bin": {
+    "country-ltp": "src/index.js"
+  },
+  "scripts": {
+    "start": "electron .",
+    "start:cli": "node src/index.js",
+    "check": "node scripts/checkData.js",
+    "test:llm": "node scripts/testLlm.js",
+    "download:images": "node scripts/downloadImages.js"
+  },
+  "keywords": [
+    "game",
+    "guess",
+    "country",
+    "geography",
+    "llm",
+    "20-questions",
+    "sea-turtle-soup",
+    "electron"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^43.2.0"
+  }
+}

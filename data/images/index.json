@@ -1,0 +1,590 @@
+{
+  "日本": {
+    "flag": "flags/jp.png"
+  },
+  "韩国": {
+    "flag": "flags/kr.png"
+  },
+  "朝鲜": {
+    "flag": "flags/kp.png"
+  },
+  "蒙古": {
+    "flag": "flags/mn.png"
+  },
+  "越南": {
+    "flag": "flags/vn.png"
+  },
+  "泰国": {
+    "flag": "flags/th.png"
+  },
+  "缅甸": {
+    "flag": "flags/mm.png"
+  },
+  "马来西亚": {
+    "flag": "flags/my.png"
+  },
+  "新加坡": {
+    "flag": "flags/sg.png"
+  },
+  "文莱": {
+    "flag": "flags/bn.png"
+  },
+  "印度尼西亚": {
+    "flag": "flags/id.png"
+  },
+  "中国": {
+    "flag": "flags/cn.png"
+  },
+  "东帝汶": {
+    "flag": "flags/tl.png"
+  },
+  "菲律宾": {
+    "flag": "flags/ph.png"
+  },
+  "印度": {
+    "flag": "flags/in.png"
+  },
+  "尼泊尔": {
+    "flag": "flags/np.png"
+  },
+  "不丹": {
+    "flag": "flags/bt.png"
+  },
+  "孟加拉国": {
+    "flag": "flags/bd.png"
+  },
+  "巴基斯坦": {
+    "flag": "flags/pk.png"
+  },
+  "柬埔寨": {
+    "flag": "flags/kh.png"
+  },
+  "马尔代夫": {
+    "flag": "flags/mv.png"
+  },
+  "哈萨克斯坦": {
+    "flag": "flags/kz.png"
+  },
+  "老挝": {
+    "flag": "flags/la.png"
+  },
+  "斯里兰卡": {
+    "flag": "flags/lk.png"
+  },
+  "塔吉克斯坦": {
+    "flag": "flags/tj.png"
+  },
+  "乌兹别克斯坦": {
+    "flag": "flags/uz.png"
+  },
+  "亚美尼亚": {
+    "flag": "flags/am.png"
+  },
+  "土库曼斯坦": {
+    "flag": "flags/tm.png"
+  },
+  "格鲁吉亚": {
+    "flag": "flags/ge.png"
+  },
+  "伊朗": {
+    "flag": "flags/ir.png"
+  },
+  "阿富汗": {
+    "flag": "flags/af.png"
+  },
+  "叙利亚": {
+    "flag": "flags/sy.png"
+  },
+  "伊拉克": {
+    "flag": "flags/iq.png"
+  },
+  "约旦": {
+    "flag": "flags/jo.png"
+  },
+  "以色列": {
+    "flag": "flags/il.png"
+  },
+  "巴勒斯坦": {
+    "flag": "flags/ps.png"
+  },
+  "沙特阿拉伯": {
+    "flag": "flags/sa.png"
+  },
+  "阿联酋": {
+    "flag": "flags/ae.png"
+  },
+  "卡塔尔": {
+    "flag": "flags/qa.png"
+  },
+  "也门": {
+    "flag": "flags/ye.png"
+  },
+  "阿曼": {
+    "flag": "flags/om.png"
+  },
+  "科威特": {
+    "flag": "flags/kw.png"
+  },
+  "巴林": {
+    "flag": "flags/bh.png"
+  },
+  "土耳其": {
+    "flag": "flags/tr.png"
+  },
+  "塞浦路斯": {
+    "flag": "flags/cy.png"
+  },
+  "吉尔吉斯斯坦": {
+    "flag": "flags/kg.png"
+  },
+  "瑞典": {
+    "flag": "flags/se.png"
+  },
+  "挪威": {
+    "flag": "flags/no.png"
+  },
+  "丹麦": {
+    "flag": "flags/dk.png"
+  },
+  "芬兰": {
+    "flag": "flags/fi.png"
+  },
+  "冰岛": {
+    "flag": "flags/is.png"
+  },
+  "黎巴嫩": {
+    "flag": "flags/lb.png"
+  },
+  "英国": {
+    "flag": "flags/gb.png"
+  },
+  "爱尔兰": {
+    "flag": "flags/ie.png"
+  },
+  "德国": {
+    "flag": "flags/de.png"
+  },
+  "法国": {
+    "flag": "flags/fr.png"
+  },
+  "荷兰": {
+    "flag": "flags/nl.png"
+  },
+  "卢森堡": {
+    "flag": "flags/lu.png"
+  },
+  "奥地利": {
+    "flag": "flags/at.png"
+  },
+  "比利时": {
+    "flag": "flags/be.png"
+  },
+  "瑞士": {
+    "flag": "flags/ch.png"
+  },
+  "意大利": {
+    "flag": "flags/it.png"
+  },
+  "西班牙": {
+    "flag": "flags/es.png"
+  },
+  "波兰": {
+    "flag": "flags/pl.png"
+  },
+  "希腊": {
+    "flag": "flags/gr.png"
+  },
+  "葡萄牙": {
+    "flag": "flags/pt.png"
+  },
+  "捷克": {
+    "flag": "flags/cz.png"
+  },
+  "斯洛伐克": {
+    "flag": "flags/sk.png"
+  },
+  "匈牙利": {
+    "flag": "flags/hu.png"
+  },
+  "保加利亚": {
+    "flag": "flags/bg.png"
+  },
+  "罗马尼亚": {
+    "flag": "flags/ro.png"
+  },
+  "克罗地亚": {
+    "flag": "flags/hr.png"
+  },
+  "塞尔维亚": {
+    "flag": "flags/rs.png"
+  },
+  "斯洛文尼亚": {
+    "flag": "flags/si.png"
+  },
+  "波斯尼亚和黑塞哥维那": {
+    "flag": "flags/ba.png"
+  },
+  "北马其顿": {
+    "flag": "flags/mk.png"
+  },
+  "拉脱维亚": {
+    "flag": "flags/lv.png"
+  },
+  "立陶宛": {
+    "flag": "flags/lt.png"
+  },
+  "阿尔巴尼亚": {
+    "flag": "flags/al.png"
+  },
+  "爱沙尼亚": {
+    "flag": "flags/ee.png"
+  },
+  "白俄罗斯": {
+    "flag": "flags/by.png"
+  },
+  "乌克兰": {
+    "flag": "flags/ua.png"
+  },
+  "摩尔多瓦": {
+    "flag": "flags/md.png"
+  },
+  "俄罗斯": {
+    "flag": "flags/ru.png"
+  },
+  "马耳他": {
+    "flag": "flags/mt.png"
+  },
+  "摩纳哥": {
+    "flag": "flags/mc.png"
+  },
+  "列支敦士登": {
+    "flag": "flags/li.png"
+  },
+  "圣马力诺": {
+    "flag": "flags/sm.png"
+  },
+  "安道尔": {
+    "flag": "flags/ad.png"
+  },
+  "突尼斯": {
+    "flag": "flags/tn.png"
+  },
+  "利比亚": {
+    "flag": "flags/ly.png"
+  },
+  "梵蒂冈": {
+    "flag": "flags/va.png"
+  },
+  "埃及": {
+    "flag": "flags/eg.png"
+  },
+  "阿尔及利亚": {
+    "flag": "flags/dz.png"
+  },
+  "埃塞俄比亚": {
+    "flag": "flags/et.png"
+  },
+  "南苏丹": {
+    "flag": "flags/ss.png"
+  },
+  "摩洛哥": {
+    "flag": "flags/ma.png"
+  },
+  "苏丹": {
+    "flag": "flags/sd.png"
+  },
+  "黑山": {
+    "flag": "flags/me.png"
+  },
+  "乌干达": {
+    "flag": "flags/ug.png"
+  },
+  "索马里": {
+    "flag": "flags/so.png"
+  },
+  "肯尼亚": {
+    "flag": "flags/ke.png"
+  },
+  "吉布提": {
+    "flag": "flags/dj.png"
+  },
+  "坦桑尼亚": {
+    "flag": "flags/tz.png"
+  },
+  "卢旺达": {
+    "flag": "flags/rw.png"
+  },
+  "布隆迪": {
+    "flag": "flags/bi.png"
+  },
+  "刚果共和国": {
+    "flag": "flags/cg.png"
+  },
+  "刚果民主共和国": {
+    "flag": "flags/cd.png"
+  },
+  "加蓬": {
+    "flag": "flags/ga.png"
+  },
+  "赤道几内亚": {
+    "flag": "flags/gq.png"
+  },
+  "中非共和国": {
+    "flag": "flags/cf.png"
+  },
+  "喀麦隆": {
+    "flag": "flags/cm.png"
+  },
+  "乍得": {
+    "flag": "flags/td.png"
+  },
+  "尼日尔": {
+    "flag": "flags/ne.png"
+  },
+  "尼日利亚": {
+    "flag": "flags/ng.png"
+  },
+  "多哥": {
+    "flag": "flags/tg.png"
+  },
+  "科特迪瓦": {
+    "flag": "flags/ci.png"
+  },
+  "厄立特里亚": {
+    "flag": "flags/er.png"
+  },
+  "贝宁": {
+    "flag": "flags/bj.png"
+  },
+  "加纳": {
+    "flag": "flags/gh.png"
+  },
+  "利比里亚": {
+    "flag": "flags/lr.png"
+  },
+  "几内亚": {
+    "flag": "flags/gn.png"
+  },
+  "塞拉利昂": {
+    "flag": "flags/sl.png"
+  },
+  "几内亚比绍": {
+    "flag": "flags/gw.png"
+  },
+  "冈比亚": {
+    "flag": "flags/gm.png"
+  },
+  "塞内加尔": {
+    "flag": "flags/sn.png"
+  },
+  "毛里塔尼亚": {
+    "flag": "flags/mr.png"
+  },
+  "布基纳法索": {
+    "flag": "flags/bf.png"
+  },
+  "马里": {
+    "flag": "flags/ml.png"
+  },
+  "佛得角": {
+    "flag": "flags/cv.png"
+  },
+  "圣多美和普林西比": {
+    "flag": "flags/st.png"
+  },
+  "安哥拉": {
+    "flag": "flags/ao.png"
+  },
+  "赞比亚": {
+    "flag": "flags/zm.png"
+  },
+  "马拉维": {
+    "flag": "flags/mw.png"
+  },
+  "津巴布韦": {
+    "flag": "flags/zw.png"
+  },
+  "莫桑比克": {
+    "flag": "flags/mz.png"
+  },
+  "科摩罗": {
+    "flag": "flags/km.png"
+  },
+  "马达加斯加": {
+    "flag": "flags/mg.png"
+  },
+  "毛里求斯": {
+    "flag": "flags/mu.png"
+  },
+  "南非": {
+    "flag": "flags/za.png"
+  },
+  "塞舌尔": {
+    "flag": "flags/sc.png"
+  },
+  "纳米比亚": {
+    "flag": "flags/na.png"
+  },
+  "莱索托": {
+    "flag": "flags/ls.png"
+  },
+  "博茨瓦纳": {
+    "flag": "flags/bw.png"
+  },
+  "斯威士兰": {
+    "flag": "flags/sz.png"
+  },
+  "加拿大": {
+    "flag": "flags/ca.png"
+  },
+  "美国": {
+    "flag": "flags/us.png"
+  },
+  "伯利兹": {
+    "flag": "flags/bz.png"
+  },
+  "危地马拉": {
+    "flag": "flags/gt.png"
+  },
+  "墨西哥": {
+    "flag": "flags/mx.png"
+  },
+  "洪都拉斯": {
+    "flag": "flags/hn.png"
+  },
+  "萨尔瓦多": {
+    "flag": "flags/sv.png"
+  },
+  "尼加拉瓜": {
+    "flag": "flags/ni.png"
+  },
+  "巴拿马": {
+    "flag": "flags/pa.png"
+  },
+  "哥斯达黎加": {
+    "flag": "flags/cr.png"
+  },
+  "古巴": {
+    "flag": "flags/cu.png"
+  },
+  "海地": {
+    "flag": "flags/ht.png"
+  },
+  "多米尼加": {
+    "flag": "flags/do.png"
+  },
+  "牙买加": {
+    "flag": "flags/jm.png"
+  },
+  "特立尼达和多巴哥": {
+    "flag": "flags/tt.png"
+  },
+  "巴巴多斯": {
+    "flag": "flags/bb.png"
+  },
+  "巴哈马": {
+    "flag": "flags/bs.png"
+  },
+  "圣基茨和尼维斯": {
+    "flag": "flags/kn.png"
+  },
+  "圣卢西亚": {
+    "flag": "flags/lc.png"
+  },
+  "圣文森特和格林纳丁斯": {
+    "flag": "flags/vc.png"
+  },
+  "安提瓜和巴布达": {
+    "flag": "flags/ag.png"
+  },
+  "格林纳达": {
+    "flag": "flags/gd.png"
+  },
+  "多米尼克": {
+    "flag": "flags/dm.png"
+  },
+  "哥伦比亚": {
+    "flag": "flags/co.png"
+  },
+  "委内瑞拉": {
+    "flag": "flags/ve.png"
+  },
+  "圭亚那": {
+    "flag": "flags/gy.png"
+  },
+  "苏里南": {
+    "flag": "flags/sr.png"
+  },
+  "巴西": {
+    "flag": "flags/br.png"
+  },
+  "厄瓜多尔": {
+    "flag": "flags/ec.png"
+  },
+  "秘鲁": {
+    "flag": "flags/pe.png"
+  },
+  "玻利维亚": {
+    "flag": "flags/bo.png"
+  },
+  "智利": {
+    "flag": "flags/cl.png"
+  },
+  "阿根廷": {
+    "flag": "flags/ar.png"
+  },
+  "乌拉圭": {
+    "flag": "flags/uy.png"
+  },
+  "巴拉圭": {
+    "flag": "flags/py.png"
+  },
+  "澳大利亚": {
+    "flag": "flags/au.png"
+  },
+  "新西兰": {
+    "flag": "flags/nz.png"
+  },
+  "巴布亚新几内亚": {
+    "flag": "flags/pg.png"
+  },
+  "斐济": {
+    "flag": "flags/fj.png"
+  },
+  "瓦努阿图": {
+    "flag": "flags/vu.png"
+  },
+  "所罗门群岛": {
+    "flag": "flags/sb.png"
+  },
+  "汤加": {
+    "flag": "flags/to.png"
+  },
+  "基里巴斯": {
+    "flag": "flags/ki.png"
+  },
+  "马绍尔群岛": {
+    "flag": "flags/mh.png"
+  },
+  "帕劳": {
+    "flag": "flags/pw.png"
+  },
+  "密克罗尼西亚联邦": {
+    "flag": "flags/fm.png"
+  },
+  "瑙鲁": {
+    "flag": "flags/nr.png"
+  },
+  "图瓦卢": {
+    "flag": "flags/tv.png"
+  },
+  "纽埃": {
+    "flag": "flags/nu.png"
+  },
+  "库克群岛": {
+    "flag": "flags/ck.png"
+  },
+  "萨摩亚": {
+    "flag": "flags/ws.png"
+  }
+}

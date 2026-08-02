@@ -1,0 +1,693 @@
+{
+  "CN": [
+    { "name": "北京八达岭长城", "title": "八达岭长城" },
+    { "name": "北京故宫", "title": "北京故宫" },
+    { "name": "秦始皇兵马俑", "title": "秦始皇兵马俑" },
+    { "name": "布达拉宫", "title": "布达拉宫" }
+  ],
+  "JP": [
+    { "name": "富士山", "title": "富士山" },
+    { "name": "京都金阁寺", "title": "鹿苑寺", "en": "Kinkaku-ji" },
+    { "name": "东京晴空塔", "title": "东京晴空塔" }
+  ],
+  "KR": [
+    { "name": "首尔景福宫", "title": "景福宫" },
+    { "name": "济州岛汉拿山", "title": "汉拏山" }
+  ],
+  "KP": [
+    { "name": "平壤主体思想塔", "title": "主体思想塔", "en": "Juche Tower" }
+  ],
+  "MN": [
+    { "name": "乌兰巴托苏赫巴托尔广场", "title": "苏赫巴托尔广场", "en": "Sükhbaatar Square" }
+  ],
+  "VN": [
+    { "name": "下龙湾", "title": "下龙湾" },
+    { "name": "河内还剑湖", "title": "还剑湖" }
+  ],
+  "LA": [
+    { "name": "万象塔銮", "title": "塔銮" },
+    { "name": "琅勃拉邦", "title": "琅勃拉邦" }
+  ],
+  "KH": [
+    { "name": "吴哥窟", "title": "吴哥窟" },
+    { "name": "巴戎寺", "title": "巴戎寺" }
+  ],
+  "MM": [
+    { "name": "仰光大金塔", "title": "仰光大金塔" },
+    { "name": "蒲甘佛塔群", "title": "蒲甘" }
+  ],
+  "TH": [
+    { "name": "曼谷大皇宫", "title": "曼谷大皇宫" },
+    { "name": "玉佛寺", "title": "玉佛寺", "en": "Wat Phra Kaew" }
+  ],
+  "MY": [
+    { "name": "吉隆坡双子塔", "title": "双峰塔", "en": "Petronas Towers" },
+    { "name": "马六甲古城", "title": "马六甲" }
+  ],
+  "SG": [
+    { "name": "滨海湾金沙", "title": "滨海湾金沙" },
+    { "name": "鱼尾狮", "title": "鱼尾狮" }
+  ],
+  "BN": [
+    { "name": "奥马尔·阿里·赛义夫丁清真寺", "title": "奥马尔·阿里·赛义夫丁清真寺", "en": "Omar Ali Saifuddin Mosque" }
+  ],
+  "ID": [
+    { "name": "婆罗浮屠", "title": "婆罗浮屠" },
+    { "name": "巴厘岛", "title": "巴厘岛" }
+  ],
+  "TL": [
+    { "name": "帝力耶稣像", "title": "帝力耶稣像", "en": "Cristo Rei of Dili" }
+  ],
+  "PH": [
+    { "name": "长滩岛", "title": "长滩岛" },
+    { "name": "保和岛巧克力山", "title": "巧克力山" }
+  ],
+  "IN": [
+    { "name": "泰姬陵", "title": "泰姬陵" },
+    { "name": "德里红堡", "title": "德里红堡" },
+    { "name": "恒河", "title": "恒河" }
+  ],
+  "PK": [
+    { "name": "拉合尔巴德夏希清真寺", "title": "巴德夏希清真寺", "en": "Badshahi Mosque" },
+    { "name": "拉合尔古堡", "title": "拉合尔古堡", "en": "Lahore Fort" }
+  ],
+  "BD": [
+    { "name": "达卡阿赫桑曼济勒宫", "title": "阿赫桑曼济勒", "en": "Ahsan Manzil" }
+  ],
+  "NP": [
+    { "name": "珠穆朗玛峰", "title": "珠穆朗玛峰" },
+    { "name": "加德满都博达哈大佛塔", "title": "博达哈大佛塔" }
+  ],
+  "BT": [
+    { "name": "帕罗虎穴寺", "title": "虎穴寺", "en": "Paro Taktsang" }
+  ],
+  "LK": [
+    { "name": "锡吉里耶狮子岩", "title": "锡吉里耶" },
+    { "name": "康提佛牙寺", "title": "佛牙寺" }
+  ],
+  "MV": [
+    { "name": "马累市", "title": "马累", "en": "Malé" }
+  ],
+  "KZ": [
+    { "name": "阿斯塔纳巴伊杰列克塔", "title": "巴伊杰列克塔", "en": "Bayterek Tower" }
+  ],
+  "KG": [
+    { "name": "伊塞克湖", "title": "伊塞克湖" }
+  ],
+  "TJ": [
+    { "name": "帕米尔高原", "title": "帕米尔高原", "en": "Pamir Mountains" }
+  ],
+  "UZ": [
+    { "name": "撒马尔罕雷吉斯坦广场", "title": "雷吉斯坦", "en": "Registan" },
+    { "name": "布哈拉古城", "title": "布哈拉" }
+  ],
+  "TM": [
+    { "name": "达尔瓦扎地狱之门", "title": "地狱之门", "en": "Darvaza gas crater" }
+  ],
+  "AZ": [
+    { "name": "巴库少女塔", "title": "少女塔", "en": "Maiden Tower (Baku)" }
+  ],
+  "AM": [
+    { "name": "加尼神庙", "title": "加尼神庙", "en": "Garni Temple" }
+  ],
+  "GE": [
+    { "name": "第比利斯圣三一大教堂", "title": "第比利斯圣三一大教堂", "en": "Sameba Cathedral" }
+  ],
+  "AF": [
+    { "name": "巴米扬大佛", "title": "巴米扬大佛", "en": "Buddhas of Bamiyan" }
+  ],
+  "IR": [
+    { "name": "波斯波利斯", "title": "波斯波利斯", "en": "Apadana" },
+    { "name": "伊斯法罕伊玛目广场", "title": "伊玛目广场", "en": "Naqsh-e Jahan Square" }
+  ],
+  "IQ": [
+    { "name": "巴比伦古城遗址", "title": "巴比伦" }
+  ],
+  "SY": [
+    { "name": "帕尔米拉古城", "title": "巴尔米拉" }
+  ],
+  "LB": [
+    { "name": "巴勒贝克神庙", "title": "巴勒贝克" }
+  ],
+  "JO": [
+    { "name": "佩特拉古城", "title": "佩特拉" },
+    { "name": "死海", "title": "死海" }
+  ],
+  "IL": [
+    { "name": "耶路撒冷哭墙", "title": "西墙", "en": "Western Wall" },
+    { "name": "马萨达要塞", "title": "马萨达", "en": "Masada" }
+  ],
+  "PS": [
+    { "name": "伯利恒圣诞教堂", "title": "圣诞教堂", "en": "Church of the Nativity" }
+  ],
+  "SA": [
+    { "name": "麦加禁寺", "title": "禁寺", "en": "Masjid al-Haram" },
+    { "name": "麦地那先知寺", "title": "先知寺", "en": "Al-Masjid an-Nabawi" }
+  ],
+  "YE": [
+    { "name": "希巴姆古城", "title": "希巴姆", "en": "Shibam" }
+  ],
+  "OM": [
+    { "name": "马斯喀特苏丹卡布斯大清真寺", "title": "苏丹卡布斯大清真寺", "en": "Sultan Qaboos Grand Mosque" }
+  ],
+  "AE": [
+    { "name": "迪拜哈利法塔", "title": "哈利法塔" },
+    { "name": "阿布扎比谢赫扎耶德大清真寺", "title": "谢赫扎耶德大清真寺" }
+  ],
+  "QA": [
+    { "name": "多哈伊斯兰艺术博物馆", "title": "多哈伊斯兰艺术博物馆", "en": "Museum of Islamic Art, Doha" }
+  ],
+  "BH": [
+    { "name": "巴林堡", "title": "巴林堡", "en": "Qal'at al-Bahrain" }
+  ],
+  "KW": [
+    { "name": "科威特塔", "title": "科威特塔", "en": "Kuwait Towers" }
+  ],
+  "TR": [
+    { "name": "圣索菲亚大教堂", "title": "圣索菲亚大教堂" },
+    { "name": "卡帕多奇亚奇石区", "title": "卡帕多奇亚", "en": "Cappadocia" },
+    { "name": "棉花堡", "title": "棉花堡", "en": "Pamukkale" }
+  ],
+  "CY": [
+    { "name": "帕福斯考古公园", "title": "帕福斯" }
+  ],
+  "NO": [
+    { "name": "松恩峡湾", "title": "松恩峡湾" },
+    { "name": "吕瑟峡湾布道石", "title": "布道石", "en": "Preikestolen" }
+  ],
+  "SE": [
+    { "name": "斯德哥尔摩老城", "title": "斯德哥尔摩老城" },
+    { "name": "斯德哥尔摩瓦萨博物馆", "title": "瓦萨博物馆", "en": "Vasa Museum" }
+  ],
+  "FI": [
+    { "name": "赫尔辛基大教堂", "title": "赫尔辛基大教堂", "en": "Helsinki Cathedral" },
+    { "name": "罗瓦涅米圣诞老人村", "title": "圣诞老人村", "en": "Santa Claus Village" }
+  ],
+  "DK": [
+    { "name": "哥本哈根小美人鱼雕像", "title": "美人鱼雕像", "en": "The Little Mermaid" },
+    { "name": "哥本哈根蒂沃利公园", "title": "蒂沃利公园", "en": "Tivoli Gardens" }
+  ],
+  "IS": [
+    { "name": "蓝湖温泉", "title": "蓝泻湖", "en": "Blue Lagoon (geothermal spa)" },
+    { "name": "黄金瀑布", "title": "黄金瀑布", "en": "Gullfoss" }
+  ],
+  "GB": [
+    { "name": "伦敦大本钟", "title": "大本钟" },
+    { "name": "伦敦塔桥", "title": "伦敦塔桥" },
+    { "name": "白金汉宫", "title": "白金汉宫" },
+    { "name": "巨石阵", "title": "巨石阵" }
+  ],
+  "IE": [
+    { "name": "莫赫悬崖", "title": "莫赫悬崖" },
+    { "name": "巨人堤道", "title": "巨人堤道" }
+  ],
+  "FR": [
+    { "name": "埃菲尔铁塔", "title": "埃菲尔铁塔" },
+    { "name": "卢浮宫", "title": "卢浮宫" },
+    { "name": "凯旋门", "title": "凯旋门" },
+    { "name": "圣米歇尔山", "title": "圣米歇尔山" }
+  ],
+  "DE": [
+    { "name": "柏林勃兰登堡门", "title": "勃兰登堡门" },
+    { "name": "新天鹅堡", "title": "新天鹅堡" },
+    { "name": "科隆大教堂", "title": "科隆大教堂" }
+  ],
+  "NL": [
+    { "name": "桑斯安斯风车村", "title": "桑斯安斯风车村", "en": "Zaanse Schans" },
+    { "name": "库肯霍夫郁金香花园", "title": "库肯霍夫", "en": "Keukenhof" }
+  ],
+  "BE": [
+    { "name": "布鲁塞尔原子球塔", "title": "原子球塔", "en": "Atomium" },
+    { "name": "布鲁塞尔大广场", "title": "布鲁塞尔大广场" }
+  ],
+  "LU": [
+    { "name": "卢森堡市老城", "title": "卢森堡市" }
+  ],
+  "CH": [
+    { "name": "马特洪峰", "title": "马特洪峰" },
+    { "name": "少女峰", "title": "少女峰" }
+  ],
+  "AT": [
+    { "name": "维也纳美泉宫", "title": "美泉宫" },
+    { "name": "哈尔施塔特小镇", "title": "哈尔施塔特" }
+  ],
+  "IT": [
+    { "name": "罗马斗兽场", "title": "罗马斗兽场" },
+    { "name": "比萨斜塔", "title": "比萨斜塔" },
+    { "name": "威尼斯大运河", "title": "威尼斯" },
+    { "name": "庞贝古城", "title": "庞贝" }
+  ],
+  "ES": [
+    { "name": "巴塞罗那圣家堂", "title": "圣家堂" },
+    { "name": "格拉纳达阿尔罕布拉宫", "title": "阿尔罕布拉宫" },
+    { "name": "巴塞罗那古埃尔公园", "title": "桂尔公园", "en": "Park Güell" }
+  ],
+  "PT": [
+    { "name": "里斯本贝伦塔", "title": "贝伦塔" },
+    { "name": "里斯本热罗尼莫斯修道院", "title": "热罗尼莫斯修道院" }
+  ],
+  "GR": [
+    { "name": "雅典卫城", "title": "雅典卫城" },
+    { "name": "圣托里尼岛", "title": "圣托里尼" },
+    { "name": "梅黛奥拉修道院", "title": "梅黛奥拉", "en": "Meteora" }
+  ],
+  "PL": [
+    { "name": "华沙老城", "title": "华沙老城" },
+    { "name": "克拉科夫瓦维尔城堡", "title": "瓦维尔城堡" }
+  ],
+  "CZ": [
+    { "name": "布拉格城堡", "title": "布拉格城堡" },
+    { "name": "查理大桥", "title": "查理大桥" }
+  ],
+  "SK": [
+    { "name": "布拉迪斯拉发城堡", "title": "布拉迪斯拉发城堡", "en": "Bratislava Castle" }
+  ],
+  "HU": [
+    { "name": "匈牙利国会大厦", "title": "匈牙利国会大厦" },
+    { "name": "布达佩斯渔人堡", "title": "渔人堡", "en": "Fisherman's Bastion" }
+  ],
+  "RO": [
+    { "name": "布朗城堡", "title": "布朗城堡", "en": "Bran Castle" },
+    { "name": "罗马尼亚人民宫", "title": "罗马尼亚人民宫", "en": "Palace of the Parliament" }
+  ],
+  "BG": [
+    { "name": "里拉修道院", "title": "里拉修道院" }
+  ],
+  "RS": [
+    { "name": "贝尔格莱德圣萨瓦大教堂", "title": "圣萨瓦大教堂", "en": "Church of Saint Sava" }
+  ],
+  "HR": [
+    { "name": "杜布罗夫尼克老城", "title": "杜布罗夫尼克" },
+    { "name": "普利特维采湖群", "title": "普利特维采湖群", "en": "Plitvice Lakes National Park" }
+  ],
+  "SI": [
+    { "name": "布莱德湖", "title": "布莱德湖" }
+  ],
+  "BA": [
+    { "name": "莫斯塔尔古桥", "title": "莫斯塔尔古桥", "en": "Stari Most" }
+  ],
+  "ME": [
+    { "name": "科托尔湾", "title": "科托尔" }
+  ],
+  "MK": [
+    { "name": "奥赫里德湖", "title": "奥赫里德湖", "en": "Lake Ohrid" }
+  ],
+  "AL": [
+    { "name": "培拉特古城", "title": "培拉特", "en": "Berat" }
+  ],
+  "LT": [
+    { "name": "特拉凯城堡", "title": "特拉凯城堡", "en": "Trakai Island Castle" },
+    { "name": "十字架山", "title": "十字架山", "en": "Hill of Crosses" }
+  ],
+  "LV": [
+    { "name": "里加老城", "title": "里加" }
+  ],
+  "EE": [
+    { "name": "塔林老城", "title": "塔林" }
+  ],
+  "BY": [
+    { "name": "米尔城堡", "title": "米尔城堡", "en": "Mir Castle Complex" }
+  ],
+  "UA": [
+    { "name": "基辅圣索菲亚大教堂", "title": "圣索菲亚大教堂" },
+    { "name": "利沃夫老城", "title": "利沃夫" }
+  ],
+  "MD": [
+    { "name": "基希讷乌市", "title": "基希讷乌" }
+  ],
+  "RU": [
+    { "name": "莫斯科红场", "title": "红场" },
+    { "name": "圣瓦西里大教堂", "title": "圣瓦西里大教堂" },
+    { "name": "贝加尔湖", "title": "贝加尔湖" }
+  ],
+  "MT": [
+    { "name": "瓦莱塔老城", "title": "瓦莱塔" }
+  ],
+  "SM": [
+    { "name": "圣马力诺市", "title": "圣马力诺市", "en": "City of San Marino" }
+  ],
+  "AD": [
+    { "name": "安道尔城", "title": "安道尔城", "en": "Andorra la Vella" }
+  ],
+  "MC": [
+    { "name": "蒙特卡洛赌场", "title": "蒙特卡洛赌场", "en": "Monte Carlo Casino" }
+  ],
+  "LI": [
+    { "name": "瓦杜兹城堡", "title": "瓦杜兹城堡", "en": "Vaduz Castle" }
+  ],
+  "VA": [
+    { "name": "圣彼得大教堂", "title": "圣彼得大教堂" },
+    { "name": "西斯廷礼拜堂", "title": "西斯廷礼拜堂" }
+  ],
+  "EG": [
+    { "name": "吉萨金字塔", "title": "吉萨金字塔" },
+    { "name": "狮身人面像", "title": "狮身人面像" },
+    { "name": "卢克索神庙", "title": "卢克索神庙" }
+  ],
+  "LY": [
+    { "name": "莱普蒂斯马格纳古城", "title": "莱普蒂斯马格纳", "en": "Leptis Magna" }
+  ],
+  "TN": [
+    { "name": "迦太基遗址", "title": "迦太基" }
+  ],
+  "DZ": [
+    { "name": "阿尔及尔卡斯巴老城", "title": "卡斯巴", "en": "Casbah of Algiers" }
+  ],
+  "MA": [
+    { "name": "舍夫沙万蓝城", "title": "舍夫沙万", "en": "Chefchaouen" },
+    { "name": "非斯麦地那", "title": "非斯" }
+  ],
+  "SD": [
+    { "name": "麦罗埃金字塔", "title": "麦罗埃", "en": "Meroë" }
+  ],
+  "SS": [
+    { "name": "朱巴市", "title": "朱巴", "en": "Juba" }
+  ],
+  "ET": [
+    { "name": "拉利贝拉岩石教堂", "title": "拉利贝拉" },
+    { "name": "阿克苏姆方尖碑", "title": "阿克苏姆" }
+  ],
+  "ER": [
+    { "name": "阿斯马拉老城", "title": "阿斯马拉" }
+  ],
+  "DJ": [
+    { "name": "阿萨尔湖", "title": "阿萨尔湖", "en": "Lake Assal (Djibouti)" }
+  ],
+  "SO": [
+    { "name": "摩加迪沙海滩", "title": "摩加迪沙" }
+  ],
+  "KE": [
+    { "name": "马赛马拉草原", "title": "马赛马拉" },
+    { "name": "肯尼亚山", "title": "肯尼亚山", "en": "Mount Kenya" }
+  ],
+  "UG": [
+    { "name": "布温迪国家公园", "title": "布温迪国家公园", "en": "Bwindi Impenetrable National Park" }
+  ],
+  "TZ": [
+    { "name": "乞力马扎罗山", "title": "乞力马扎罗山" },
+    { "name": "塞伦盖蒂草原", "title": "塞伦盖蒂" }
+  ],
+  "RW": [
+    { "name": "火山国家公园", "title": "火山国家公园", "en": "Volcanoes National Park" }
+  ],
+  "BI": [
+    { "name": "坦噶尼喀湖", "title": "坦噶尼喀湖", "en": "Lake Tanganyika" }
+  ],
+  "CD": [
+    { "name": "维龙加国家公园", "title": "维龙加国家公园", "en": "Virunga National Park" }
+  ],
+  "CG": [
+    { "name": "布拉柴维尔市", "title": "布拉柴维尔" }
+  ],
+  "GA": [
+    { "name": "洛佩国家公园", "title": "洛佩国家公园", "en": "Lopé National Park" }
+  ],
+  "GQ": [
+    { "name": "比奥科岛", "title": "比奥科岛", "en": "Bioko" }
+  ],
+  "CM": [
+    { "name": "喀麦隆火山", "title": "喀麦隆火山", "en": "Mount Cameroon" }
+  ],
+  "CF": [
+    { "name": "班吉市乌班吉河", "title": "班吉", "en": "Bangui" }
+  ],
+  "TD": [
+    { "name": "乍得湖", "title": "乍得湖", "en": "Lake Chad" }
+  ],
+  "NE": [
+    { "name": "阿加德兹古城", "title": "阿加德兹", "en": "Agadez" }
+  ],
+  "NG": [
+    { "name": "祖马岩", "title": "祖马岩", "en": "Zuma Rock" }
+  ],
+  "BJ": [
+    { "name": "阿波美王宫", "title": "阿波美王宫", "en": "Royal Palaces of Abomey" }
+  ],
+  "TG": [
+    { "name": "洛美市", "title": "洛美", "en": "Lomé" }
+  ],
+  "GH": [
+    { "name": "海岸角城堡", "title": "海岸角城堡", "en": "Cape Coast Castle" }
+  ],
+  "CI": [
+    { "name": "亚穆苏克罗和平圣母大殿", "title": "亚穆苏克罗和平圣母大殿", "en": "Basilica of Our Lady of Peace of Yamoussoukro" }
+  ],
+  "LR": [
+    { "name": "蒙罗维亚市", "title": "蒙罗维亚", "en": "Monrovia" }
+  ],
+  "SL": [
+    { "name": "弗里敦市", "title": "弗里敦", "en": "Freetown" }
+  ],
+  "GN": [
+    { "name": "宁巴山", "title": "宁巴山", "en": "Mount Nimba" }
+  ],
+  "GW": [
+    { "name": "比绍市", "title": "比绍", "en": "Bissau" }
+  ],
+  "SN": [
+    { "name": "戈雷岛", "title": "戈雷岛", "en": "Gorée" },
+    { "name": "玫瑰湖", "title": "玫瑰湖", "en": "Lake Retba" }
+  ],
+  "GM": [
+    { "name": "冈比亚河", "title": "冈比亚河", "en": "Gambia River" }
+  ],
+  "MR": [
+    { "name": "欣盖提古城", "title": "欣盖提", "en": "Chinguetti" }
+  ],
+  "ML": [
+    { "name": "杰内大清真寺", "title": "杰内大清真寺", "en": "Great Mosque of Djenné" },
+    { "name": "通布图古城", "title": "通布图", "en": "Timbuktu" }
+  ],
+  "BF": [
+    { "name": "瓦加杜古市", "title": "瓦加杜古", "en": "Ouagadougou" }
+  ],
+  "CV": [
+    { "name": "普拉亚市", "title": "普拉亚", "en": "Praia" }
+  ],
+  "ST": [
+    { "name": "圣多美市", "title": "圣多美", "en": "São Tomé" }
+  ],
+  "AO": [
+    { "name": "罗安达市", "title": "罗安达" }
+  ],
+  "ZM": [
+    { "name": "维多利亚瀑布", "title": "维多利亚瀑布" }
+  ],
+  "ZW": [
+    { "name": "维多利亚瀑布", "title": "维多利亚瀑布" },
+    { "name": "大津巴布韦遗址", "title": "大津巴布韦", "en": "Great Zimbabwe" }
+  ],
+  "MW": [
+    { "name": "马拉维湖", "title": "马拉维湖", "en": "Lake Malawi" }
+  ],
+  "MZ": [
+    { "name": "马普托市", "title": "马普托" }
+  ],
+  "MG": [
+    { "name": "猴面包树大道", "title": "猴面包树大道", "en": "Avenue of the Baobabs" },
+    { "name": "贝马拉哈石林", "title": "贝马拉哈石林", "en": "Tsingy de Bemaraha" }
+  ],
+  "KM": [
+    { "name": "大科摩罗岛卡尔塔拉火山", "title": "卡尔塔拉火山", "en": "Mount Karthala" }
+  ],
+  "MU": [
+    { "name": "夏玛尔七色土", "title": "七色土", "en": "Chamarel Seven Colored Earths" }
+  ],
+  "SC": [
+    { "name": "拉迪格岛德阿让海滩", "title": "拉迪格岛", "en": "La Digue" }
+  ],
+  "ZA": [
+    { "name": "开普敦桌山", "title": "桌山" },
+    { "name": "好望角", "title": "好望角" },
+    { "name": "克鲁格国家公园", "title": "克鲁格国家公园", "en": "Kruger National Park" }
+  ],
+  "NA": [
+    { "name": "索苏斯雷沙丘", "title": "索苏斯雷", "en": "Sossusvlei" }
+  ],
+  "BW": [
+    { "name": "奥卡万戈三角洲", "title": "奥卡万戈三角洲", "en": "Okavango Delta" }
+  ],
+  "LS": [
+    { "name": "塞赫拉巴泰贝国家公园", "title": "塞赫拉巴泰贝国家公园", "en": "Sehlabathebe National Park" }
+  ],
+  "SZ": [
+    { "name": "洛班巴市", "title": "洛班巴", "en": "Lobamba" }
+  ],
+  "CA": [
+    { "name": "尼亚加拉大瀑布", "title": "尼亚加拉瀑布" },
+    { "name": "班夫国家公园", "title": "班夫国家公园" },
+    { "name": "多伦多国家电视塔", "title": "加拿大国家电视塔", "en": "CN Tower" }
+  ],
+  "US": [
+    { "name": "自由女神像", "title": "自由女神像" },
+    { "name": "科罗拉多大峡谷", "title": "大峡谷" },
+    { "name": "黄石国家公园", "title": "黄石国家公园" },
+    { "name": "旧金山金门大桥", "title": "金门大桥" }
+  ],
+  "MX": [
+    { "name": "奇琴伊察", "title": "奇琴伊察" },
+    { "name": "特奥蒂瓦坎", "title": "特奥蒂瓦坎" },
+    { "name": "坎昆海滩", "title": "坎昆" }
+  ],
+  "GT": [
+    { "name": "蒂卡尔玛雅遗址", "title": "蒂卡尔" }
+  ],
+  "BZ": [
+    { "name": "大蓝洞", "title": "大蓝洞", "en": "Great Blue Hole" }
+  ],
+  "HN": [
+    { "name": "科潘玛雅遗址", "title": "科潘", "en": "Copán" }
+  ],
+  "SV": [
+    { "name": "圣安娜火山", "title": "圣安娜火山", "en": "Santa Ana Volcano" }
+  ],
+  "NI": [
+    { "name": "尼加拉瓜湖", "title": "尼加拉瓜湖", "en": "Lake Nicaragua" }
+  ],
+  "CR": [
+    { "name": "阿雷纳尔火山", "title": "阿雷纳尔火山", "en": "Arenal Volcano" }
+  ],
+  "PA": [
+    { "name": "巴拿马运河", "title": "巴拿马运河" },
+    { "name": "巴拿马老城", "title": "巴拿马老城", "en": "Casco Viejo" }
+  ],
+  "CU": [
+    { "name": "哈瓦那老城", "title": "哈瓦那" },
+    { "name": "巴拉德罗海滩", "title": "巴拉德罗", "en": "Varadero" }
+  ],
+  "HT": [
+    { "name": "拉费里埃城堡", "title": "拉费里埃城堡", "en": "Citadelle Laferrière" }
+  ],
+  "DO": [
+    { "name": "圣多明各老城", "title": "圣多明各" }
+  ],
+  "JM": [
+    { "name": "邓恩河瀑布", "title": "邓恩河瀑布", "en": "Dunn's River Falls" }
+  ],
+  "TT": [
+    { "name": "皮奇湖", "title": "皮奇湖", "en": "Pitch Lake" }
+  ],
+  "BB": [
+    { "name": "布里奇敦港", "title": "布里奇敦", "en": "Bridgetown" }
+  ],
+  "BS": [
+    { "name": "天堂岛亚特兰蒂斯", "title": "天堂岛", "en": "Paradise Island" }
+  ],
+  "KN": [
+    { "name": "硫磺石山要塞", "title": "硫磺石山要塞", "en": "Brimstone Hill Fortress National Park" }
+  ],
+  "LC": [
+    { "name": "皮通山", "title": "皮通山", "en": "Pitons" }
+  ],
+  "VC": [
+    { "name": "拉苏弗里耶尔火山", "title": "拉苏弗里耶尔火山", "en": "La Soufrière (volcano)" }
+  ],
+  "GD": [
+    { "name": "圣乔治市", "title": "圣乔治", "en": "St. George's, Grenada" }
+  ],
+  "AG": [
+    { "name": "尼尔森船坞", "title": "尼尔森船坞", "en": "Nelson's Dockyard" }
+  ],
+  "DM": [
+    { "name": "沸腾湖", "title": "沸腾湖", "en": "Boiling Lake" }
+  ],
+  "CO": [
+    { "name": "卡塔赫纳老城", "title": "卡塔赫纳 (哥伦比亚)", "en": "Cartagena, Colombia" },
+    { "name": "彩虹河", "title": "彩虹河", "en": "Caño Cristales" }
+  ],
+  "VE": [
+    { "name": "安赫尔瀑布", "title": "安赫尔瀑布", "en": "Angel Falls" },
+    { "name": "罗赖马山", "title": "罗赖马山", "en": "Mount Roraima" }
+  ],
+  "GY": [
+    { "name": "凯厄图尔瀑布", "title": "凯厄图尔瀑布", "en": "Kaieteur Falls" }
+  ],
+  "SR": [
+    { "name": "帕拉马里博老城", "title": "帕拉马里博" }
+  ],
+  "BR": [
+    { "name": "里约热内卢基督像", "title": "里约热内卢基督像" },
+    { "name": "伊瓜苏瀑布", "title": "伊瓜苏瀑布" },
+    { "name": "亚马逊雨林", "title": "亚马逊雨林" }
+  ],
+  "EC": [
+    { "name": "加拉帕戈斯群岛", "title": "加拉帕戈斯群岛" },
+    { "name": "基多老城", "title": "基多" }
+  ],
+  "PE": [
+    { "name": "马丘比丘", "title": "马丘比丘" },
+    { "name": "纳斯卡线条", "title": "纳斯卡线条" },
+    { "name": "的的喀喀湖", "title": "的的喀喀湖" }
+  ],
+  "BO": [
+    { "name": "乌尤尼盐沼", "title": "乌尤尼盐沼", "en": "Salar de Uyuni" },
+    { "name": "的的喀喀湖", "title": "的的喀喀湖" }
+  ],
+  "CL": [
+    { "name": "复活节岛摩艾石像", "title": "复活节岛" },
+    { "name": "百内国家公园", "title": "百内国家公园", "en": "Torres del Paine National Park" },
+    { "name": "阿塔卡马沙漠", "title": "阿塔卡马沙漠" }
+  ],
+  "AR": [
+    { "name": "布宜诺斯艾利斯方尖碑", "title": "布宜诺斯艾利斯方尖碑", "en": "Obelisk of Buenos Aires" },
+    { "name": "佩里托莫雷诺冰川", "title": "佩里托莫雷诺冰川", "en": "Perito Moreno Glacier" },
+    { "name": "火地岛", "title": "火地岛", "en": "Tierra del Fuego" }
+  ],
+  "PY": [
+    { "name": "伊泰普水电站", "title": "伊泰普水电站", "en": "Itaipu Dam" }
+  ],
+  "UY": [
+    { "name": "埃斯特角城", "title": "埃斯特角城", "en": "Punta del Este" }
+  ],
+  "AU": [
+    { "name": "悉尼歌剧院", "title": "悉尼歌剧院" },
+    { "name": "大堡礁", "title": "大堡礁" },
+    { "name": "艾尔斯岩", "title": "艾尔斯岩", "en": "Uluru" }
+  ],
+  "NZ": [
+    { "name": "皇后镇", "title": "皇后镇", "en": "Queenstown, New Zealand" },
+    { "name": "米尔福德峡湾", "title": "米尔福德峡湾", "en": "Milford Sound" }
+  ],
+  "PG": [
+    { "name": "威廉山", "title": "威廉山", "en": "Mount Wilhelm" }
+  ],
+  "FJ": [
+    { "name": "玛玛努卡群岛", "title": "玛玛努卡群岛", "en": "Mamanuca Islands" }
+  ],
+  "SB": [
+    { "name": "瓜达尔卡纳尔岛", "title": "瓜达尔卡纳尔岛", "en": "Guadalcanal" }
+  ],
+  "VU": [
+    { "name": "亚苏尔火山", "title": "亚苏尔火山", "en": "Mount Yasur" }
+  ],
+  "WS": [
+    { "name": "阿皮亚市", "title": "阿皮亚", "en": "Apia" }
+  ],
+  "TO": [
+    { "name": "哈阿蒙加三石门", "title": "哈阿蒙加三石门", "en": "Haʻamonga ʻa Maui" }
+  ],
+  "KI": [
+    { "name": "基里蒂马蒂环礁", "title": "基里蒂马蒂环礁", "en": "Kiritimati" }
+  ],
+  "MH": [
+    { "name": "比基尼环礁", "title": "比基尼环礁", "en": "Bikini Atoll" }
+  ],
+  "PW": [
+    { "name": "洛克群岛", "title": "洛克群岛", "en": "Rock Islands" }
+  ],
+  "FM": [
+    { "name": "南马都尔石城遗址", "title": "南马都尔", "en": "Nan Madol" }
+  ],
+  "NR": [
+    { "name": "布阿达湖", "title": "布阿达湖", "en": "Buada Lagoon" }
+  ],
+  "TV": [
+    { "name": "富纳富提环礁", "title": "富纳富提", "en": "Funafuti" }
+  ],
+  "CK": [
+    { "name": "艾图塔基岛", "title": "艾图塔基", "en": "Aitutaki" }
+  ],
+  "NU": [
+    { "name": "阿洛菲市", "title": "阿洛菲", "en": "Alofi" }
+  ]
+}

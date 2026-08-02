@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;">
+  <title>国家海龟汤</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <h1>国家海龟汤</h1>
+      <span id="statusText" class="status">加载中…</span>
+    </div>
+    <button id="settingsBtn" class="icon-btn" title="设置" aria-label="设置">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor"
+           stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="3"></circle>
+        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+      </svg>
+    </button>
+  </header>
+
+  <main id="chat">
+    <div id="messages"></div>
+  </main>
+
+  <div class="controls">
+    <div class="action-row">
+      <button id="hintBtn" class="btn">提示</button>
+      <button id="giveupBtn" class="btn">放弃</button>
+      <button id="newBtn" class="btn primary">新一局</button>
+    </div>
+    <div class="input-row">
+      <input id="input" type="text" placeholder="问一个“是/不是”的问题，例如“这个国家在亚洲吗？”，也可以直接猜“答案是法国吗？”"
+             autocomplete="off" spellcheck="false">
+      <button id="sendBtn" class="btn primary">发送</button>
+    </div>
+  </div>
+
+  <!-- 设置弹窗（齿轮图标） -->
+  <div id="settingsOverlay" class="overlay hidden">
+    <div class="modal">
+      <h2>设置</h2>
+      <p class="hint">配置保存在项目根目录的 <code>config.json</code>，即改即用。</p>
+
+      <div class="form-grid">
+        <label class="full">接口服务（Provider）
+          <select id="cfgProvider">
+            <option value="ollama">Ollama（本地 · 免费）</option>
+            <option value="deepseek">DeepSeek（付费）</option>
+            <option value="zhipu">智谱 Zhipu（GLM · 有免费档）</option>
+            <option value="siliconflow">硅基流动 SiliconFlow（部分免费）</option>
+            <option value="openai">OpenAI（付费）</option>
+            <option value="moonshot">Moonshot Kimi（付费）</option>
+            <option value="custom">自定义（任意 OpenAI 兼容）</option>
+          </select>
+        </label>
+
+        <label>API Key
+          <input id="cfgApiKey" type="password" autocomplete="off">
+        </label>
+
+        <label>接口地址
+          <select id="cfgBaseMode">
+            <option value="default">使用默认地址</option>
+            <option value="custom">自定义地址…</option>
+          </select>
+        </label>
+
+        <label class="full" id="cfgApiBaseWrap">
+          API Base（自定义地址）
+          <input id="cfgApiBase" type="text" autocomplete="off">
+        </label>
+
+        <label class="full">模型
+          <div class="model-row">
+            <select id="cfgModelSelect"></select>
+            <input id="cfgModelCustom" type="text" autocomplete="off" placeholder="填写自定义模型名，如 deepseek-chat">
+          </div>
+        </label>
+
+        <label>裁判模式
+          <select id="cfgJudgeMode">
+            <option value="auto">auto（有 API 用大模型，否则离线）</option>
+            <option value="llm">llm（强制大模型）</option>
+            <option value="heuristic">heuristic（强制离线启发式）</option>
+          </select>
+        </label>
+
+        <label>配色主题
+          <select id="cfgTheme">
+            <option value="default">默认 · 深海蓝</option>
+            <option value="forest">森林绿</option>
+            <option value="sakura">樱花粉</option>
+            <option value="aurora">极光紫</option>
+            <option value="dawn">晨曦</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="modal-actions">
+        <button id="testBtn" class="btn">测试连接</button>
+        <span id="testResult" class="test-result"></span>
+        <span class="spacer"></span>
+        <button id="closeSettingsBtn" class="btn">取消</button>
+        <button id="saveConfigBtn" class="btn primary">保存</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

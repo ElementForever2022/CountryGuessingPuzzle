@@ -1,0 +1,9 @@
+{
+  "game": "country",
+  "provider": "zhipu",
+  "apiKey": "",
+  "apiBase": "",
+  "model": "",
+  "judgeMode": "auto",
+  "theme": "default"
+}
